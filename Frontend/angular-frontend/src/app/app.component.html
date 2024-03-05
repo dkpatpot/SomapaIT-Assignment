@@ -1,0 +1,32 @@
+<div class="container mt-5">
+  <main>
+    <div class="row">
+      <div class="col">
+        <h4 class="mb-3">Initial Page</h4>
+        <form class="needs-validation" novalidate="">
+          <div class="row g-3">
+            <div class="col-2">
+              <label for="firstName" class="form-label">First name</label>
+              <input type="text" class="form-control" id="firstName" placeholder="" required>
+              <div class="invalid-feedback">
+                Valid first name is required.
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <label for="csvFile">Choose a CSV file:</label>
+              <div class="input-group">
+                <input type="file" id="csvFile" name="csvFile" accept=".csv" class="form-control" (change)="handleFileInput($event)" required>
+                <button type="submit" class="btn btn-primary">Browse</button>
+              </div>
+            </div>
+            <div class="col-sm-6 ">
+                  <button type="submit" class="btn btn-primary">Save</button>
+                  <button type="submit" class="btn btn-secondary">Cancel</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+
+</div>

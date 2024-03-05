@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SomapaItAssignmentApplication<SomapaIT-assignment>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.thanaphat.SomapaITassignment.SomapaItAssignmentApplication",
+            "projectName": "SomapaIT-assignment",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
